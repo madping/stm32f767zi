@@ -15,5 +15,8 @@
 
 
 void uart3_tx_init(void);
+void uart3_rxtx_init(void);
+
+uint8_t uart_read(USART_TypeDef *USARTx);
 
 #endif /* UART_H_ */
